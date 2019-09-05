@@ -127,26 +127,26 @@ namespace DJVU {
 
 #ifndef DEBUGLVL
 # ifdef NDEBUG
-#  define DEBUGLVL 0
+#  define DEBUGLVL 4
 # endif 
 #endif
 #ifndef DEBUGLVL
 # ifdef NO_DEBUG
-#  define DEBUGLVL 0
+#  define DEBUGLVL 4
 # endif 
 #endif
 #ifndef DEBUGLVL
 # ifdef RUNTIME_DEBUG_ONLY
-#  define DEBUGLVL 1
+#  define DEBUGLVL 4
 # endif 
 #endif
 #ifndef DEBUGLVL
 # ifdef _DEBUG
-#  define DEBUGLVL 1
+#  define DEBUGLVL 4
 # endif 
 #endif
 #ifndef DEBUGLVL
-#  define DEBUGLVL 0
+#  define DEBUGLVL 4
 #endif
 
 #if DEBUGLVL <= 0

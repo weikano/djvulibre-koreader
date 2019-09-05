@@ -121,6 +121,7 @@ DjVuDebug::DjVuDebug()
   if (debug_file_count++ == 0 && !debug_file)
     set_debug_file(stderr);
 #endif
+  set_debug_file(stderr);
 }
 
 DjVuDebug::~DjVuDebug()
